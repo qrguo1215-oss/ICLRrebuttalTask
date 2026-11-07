@@ -36,7 +36,7 @@ def read_jsonl(path: Path) -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--model", type=Path)
+    parser.add_argument("--model")
     parser.add_argument("--world-size", type=int, default=8)
     args = parser.parse_args()
 
@@ -72,7 +72,7 @@ def main() -> None:
 
     model_summary = None
     if args.model is not None:
-        config = AutoConfig.from_pretrained(args.model, local_files_only=True)
+        config = AutoConfig.from_pretrained(args.model)
         model_summary = {
             "path": str(args.model),
             "hidden_size": int(config.hidden_size),

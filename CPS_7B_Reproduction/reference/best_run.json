@@ -2,7 +2,7 @@
   "selection_rule": "rank by silhouette, then stability ARI mean/min, then cluster balance, with inertia as a final tie-breaker",
   "k": 6,
   "min_balance": 0.02,
-  "best_run_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/cluster_sweep_layer20_k6_multiseed/pca20/seed0",
+  "best_run_dir": "historical/cluster_sweep_layer20_k6_multiseed/pca20/seed0",
   "requested_pca_dim": 20,
   "effective_pca_dim": 20,
   "seed": 0,

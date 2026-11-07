@@ -1,6 +1,7 @@
 torch>=2.3
 transformers==4.46.3
 accelerate>=0.34
+huggingface-hub>=0.26
 numpy>=1.26,<3
 scipy>=1.14
 scikit-learn>=1.5

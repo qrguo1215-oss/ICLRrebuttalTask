@@ -6,14 +6,14 @@ source "$SCRIPT_DIR/common.sh"
 require_model
 mkdir -p "$RUN_DIR/logs"
 cd "$ROOT"
-printf '[%s] host=%s slurm_job_id=%s gpu_ids=%s run_dir=%s\n' \
-  "$(date -Is)" "$(hostname)" "${SLURM_JOB_ID:-none}" "$GPU_IDS_STRING" "$RUN_DIR" \
+printf '[%s] host=%s gpu_ids=%s run_dir=%s\n' \
+  "$(date -Is)" "$(hostname)" "$GPU_IDS_STRING" "$RUN_DIR" \
   | tee -a "$RUN_DIR/logs/pipeline.log"
 
 printf '[%s] hidden extraction start\n' "$(date -Is)" | tee -a "$RUN_DIR/logs/pipeline.log"
-"$SCRIPT_DIR/run_hidden_8gpu.sh"
+"$SCRIPT_DIR/run_hidden.sh"
 printf '[%s] clustering/vector generation start\n' "$(date -Is)" | tee -a "$RUN_DIR/logs/pipeline.log"
 "$SCRIPT_DIR/run_cluster_and_vectors.sh" | tee -a "$RUN_DIR/logs/pipeline.log"
 printf '[%s] MATH500 evaluation start\n' "$(date -Is)" | tee -a "$RUN_DIR/logs/pipeline.log"
-"$SCRIPT_DIR/run_math500_8gpu.sh"
+"$SCRIPT_DIR/run_math500.sh"
 printf '[%s] pipeline complete\n' "$(date -Is)" | tee -a "$RUN_DIR/logs/pipeline.log"

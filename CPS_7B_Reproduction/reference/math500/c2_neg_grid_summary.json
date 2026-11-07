@@ -1,7 +1,7 @@
 [
   {
     "coef": 0.025,
-    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p025_max10000_sealstop_8gpu",
+    "output_dir": "historical/math500_c2_neg_coef0p025_max10000_sealstop",
     "rows": 500,
     "acc": 0.868,
     "contains_end_think_rate": 0.894,
@@ -15,7 +15,7 @@
   },
   {
     "coef": 0.05,
-    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p05_max10000_sealstop_8gpu",
+    "output_dir": "historical/math500_c2_neg_coef0p05_max10000_sealstop",
     "rows": 500,
     "acc": 0.864,
     "contains_end_think_rate": 0.886,
@@ -29,7 +29,7 @@
   },
   {
     "coef": 0.1,
-    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p1_max10000_sealstop_8gpu",
+    "output_dir": "historical/math500_c2_neg_coef0p1_max10000_sealstop",
     "rows": 500,
     "acc": 0.866,
     "contains_end_think_rate": 0.89,
@@ -43,7 +43,7 @@
   },
   {
     "coef": 0.2,
-    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p2_max10000_sealstop_8gpu",
+    "output_dir": "historical/math500_c2_neg_coef0p2_max10000_sealstop",
     "rows": 500,
     "acc": 0.868,
     "contains_end_think_rate": 0.904,
@@ -57,7 +57,7 @@
   },
   {
     "coef": 0.4,
-    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p4_max10000_sealstop_8gpu",
+    "output_dir": "historical/math500_c2_neg_coef0p4_max10000_sealstop",
     "rows": 500,
     "acc": 0.878,
     "contains_end_think_rate": 0.906,

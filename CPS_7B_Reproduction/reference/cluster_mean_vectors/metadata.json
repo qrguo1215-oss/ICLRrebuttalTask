@@ -1,14 +1,14 @@
 {
   "hidden_paths": [
-    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_correct_0_500/hidden.pt",
-    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_incorrect_0_500/hidden.pt"
+    "historical/hidden_correct_0_500/hidden.pt",
+    "historical/hidden_incorrect_0_500/hidden.pt"
   ],
   "source_names": [
     "hidden_correct_0_500",
     "hidden_incorrect_0_500"
   ],
-  "assignments_path": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/cluster_sweep_layer20_k6_multiseed/pca20/seed0/assignments_full.jsonl",
-  "source_cluster_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/cluster_sweep_layer20_k6_multiseed/pca20/seed0",
+  "assignments_path": "historical/cluster_sweep_layer20_k6_multiseed/pca20/seed0/assignments_full.jsonl",
+  "source_cluster_dir": "historical/cluster_sweep_layer20_k6_multiseed/pca20/seed0",
   "layer": 20,
   "vector_type": "raw_cluster_mean",
   "summary": {

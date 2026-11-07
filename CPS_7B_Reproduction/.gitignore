@@ -4,6 +4,8 @@ __pycache__/
 .env
 runs/
 logs/
+models/
+.cache/
 slurm-*.out
 *.lock
 .DS_Store

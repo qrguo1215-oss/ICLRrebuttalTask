@@ -1,15 +1,15 @@
 {
   "hidden_paths": [
-    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_correct_0_500/hidden.pt",
-    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_incorrect_0_500/hidden.pt"
+    "historical/hidden_correct_0_500/hidden.pt",
+    "historical/hidden_incorrect_0_500/hidden.pt"
   ],
   "source_names": [
     "hidden_correct_0_500",
     "hidden_incorrect_0_500"
   ],
   "prompts_paths": [
-    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_correct_0_500/prompts.json",
-    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_incorrect_0_500/prompts.json"
+    "historical/hidden_correct_0_500/prompts.json",
+    "historical/hidden_incorrect_0_500/prompts.json"
   ],
   "layer": 20,
   "num_sources": 2,
