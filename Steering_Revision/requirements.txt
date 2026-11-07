@@ -1,0 +1,12 @@
+torch==2.3.1
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors==0.8.0
+accelerate==0.34.2
+huggingface-hub==0.26.5
+numpy==1.26.4
+sympy==1.12
+antlr4-python3-runtime==4.11.1
+word2number==1.1
+regex==2024.11.6
+tqdm==4.67.1

@@ -1,0 +1,66 @@
+{
+  "15": {
+    "repo_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "revision": "ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
+    "directory": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "files": {
+      "config.json": {
+        "sha256": "37bd455e9679d2959536270fed49d25cc7c290a64f6e52abb97c71345a9cee41",
+        "size": 679
+      },
+      "generation_config.json": {
+        "sha256": "72cbec1015da9ed03ad025483005cbf6481403abf947adfd54e504d1a66a2126",
+        "size": 181
+      },
+      "model.safetensors": {
+        "sha256": "58858233513d76b8703e72eed6ce16807b523328188e13329257fb9594462945",
+        "size": 3554214621
+      },
+      "tokenizer.json": {
+        "sha256": "88145e3c3249adc2546ede277e9819d6e405e19072456e4b521cbc724bd60773",
+        "size": 7031660
+      },
+      "tokenizer_config.json": {
+        "sha256": "8ac8c85fb242563c2260baec0909debd69d718af6a0b3d90e6cab62b4d341cd5",
+        "size": 3071
+      }
+    },
+    "identity_policy": "exact file SHA256, including model weights; fail closed if Hub content differs"
+  },
+  "7": {
+    "repo_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "revision": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+    "directory": "DeepSeek-R1-Distill-Qwen-7B",
+    "files": {
+      "config.json": {
+        "sha256": "8290d3c1e385e2616572eb6926f7e2745f901d1c13da95970326a8a73f6c379c",
+        "size": 680
+      },
+      "generation_config.json": {
+        "sha256": "72cbec1015da9ed03ad025483005cbf6481403abf947adfd54e504d1a66a2126",
+        "size": 181
+      },
+      "model-00001-of-000002.safetensors": {
+        "sha256": "8b27be8d43b81d0cd19b3113ef88caf1a61c2fc602de77e3cce97aedcec184b4",
+        "size": 8606596466
+      },
+      "model-00002-of-000002.safetensors": {
+        "sha256": "1780a9502f56f592cb4d6262c8c76ca8ad36a86b0257e052c672d87f49707e80",
+        "size": 6624675384
+      },
+      "model.safetensors.index.json": {
+        "sha256": "788266ec033788abcf34b2cb8fe156ce300ae05d94d3d54c60f2ecffd8927a1a",
+        "size": 28090
+      },
+      "tokenizer.json": {
+        "sha256": "88145e3c3249adc2546ede277e9819d6e405e19072456e4b521cbc724bd60773",
+        "size": 7031660
+      },
+      "tokenizer_config.json": {
+        "sha256": "8ac8c85fb242563c2260baec0909debd69d718af6a0b3d90e6cab62b4d341cd5",
+        "size": 3071
+      }
+    },
+    "identity_policy": "exact file SHA256, including model weights; fail closed if Hub content differs"
+  }
+}

@@ -1,0 +1,10 @@
+.venv/
+models/
+runs/
+deliverables/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+.env
+*.key

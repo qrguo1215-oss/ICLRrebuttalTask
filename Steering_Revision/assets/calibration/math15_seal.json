@@ -1,0 +1,1189 @@
+{
+  "source_sha256": "ffb4569f70647048ca7a1ec1a2f2085c8601c7960c6edfc970fa860c5e54ae89",
+  "kernel": "TopPSoftmax(z_baseline / T); no mixture gate",
+  "objective": "problem-equal exact 1D Wasserstein distance over baseline-logit deficits",
+  "selection_uses_correctness": false,
+  "cases": 100,
+  "selected": {
+    "temperature": 0.8,
+    "top_p": 0.98,
+    "wasserstein": 0.02585104184068898,
+    "steering_departure_rate": 0.24042667361204406,
+    "sampling_departure_rate": 0.23902993440628084,
+    "steering_conditional_mean_depth": 1.20169911303015,
+    "sampling_conditional_mean_depth": 1.143922079808064
+  },
+  "all_candidates": [
+    {
+      "temperature": 0.8,
+      "top_p": 0.98,
+      "wasserstein": 0.02585104184068898,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.23902993440628084,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.143922079808064
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 1.0,
+      "wasserstein": 0.0322937695067937,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.24680445939302398,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.3014908643227314
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.95,
+      "wasserstein": 0.054376155898206546,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.22948227941989896,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.0220972824689178
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.5,
+      "wasserstein": 0.06376217965010816,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.26804971933364874,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.0378733768696187
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.6,
+      "wasserstein": 0.06535406925619093,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.25910994380712493,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.9699074659239253
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.7,
+      "wasserstein": 0.06671241497399982,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.24957750678062474,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.9365332384317746
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "wasserstein": 0.07403853207678968,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.26876141130924236,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.1669891635443126
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.8,
+      "wasserstein": 0.0746723622963415,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.23539897710084912,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.9101909589584717
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.2,
+      "wasserstein": 0.08029867504516842,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.21389715552330002,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.9818060735503262
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.4,
+      "wasserstein": 0.08367585559335866,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.2893573594093324,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.2105785007512613
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.8,
+      "wasserstein": 0.09696667280454299,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.28602948874235157,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.174759496012653
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "wasserstein": 0.10045626995418667,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.21411942958831776,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.8802302834163265
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.3,
+      "wasserstein": 0.10183210414653857,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.21205366820096982,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.8829620943421491
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "wasserstein": 0.11296038342331086,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.285345787703991,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.3501088167327502
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 1.0,
+      "wasserstein": 0.11583497101901732,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.18584240853786504,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.9313870225782388
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.7,
+      "wasserstein": 0.1183282800618184,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.30154915004968685,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.2155587449807161
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.4,
+      "wasserstein": 0.12204985323819463,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.2086713120341297,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.7998398281650992
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.5,
+      "wasserstein": 0.1280514714238699,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.20988586366176598,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.766514164286311
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.6,
+      "wasserstein": 0.13213686359201027,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.20910293817520142,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.7498429749684667
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.98,
+      "wasserstein": 0.1413825333640423,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.1796415531635286,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.8213565231369309
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.7,
+      "wasserstein": 0.14275825904465447,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.2013206386566163,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.7260726186430805
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.6,
+      "wasserstein": 0.1533788267528672,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.3207071709632875,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.3283695379391687
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.8,
+      "wasserstein": 0.16161029500484247,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.18507969200611096,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.6879251856067824
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.98,
+      "wasserstein": 0.16309369416564262,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.2965307533740995,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.5146640119096841
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "wasserstein": 0.16356592362153977,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.17135184466838838,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.7316266595976665
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "wasserstein": 0.18833754288960997,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.1591541856527332,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.6320593868921432
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.5,
+      "wasserstein": 0.1923471629288896,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.1633518266677857,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.5912770973076208
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.6,
+      "wasserstein": 0.19361353386101204,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.1647686755657194,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.578504672157023
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.4,
+      "wasserstein": 0.19791539106472036,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.1543242007493968,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.5897918590072408
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.7,
+      "wasserstein": 0.20460986322032973,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.15455866754055003,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.5455705850510183
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.9,
+      "wasserstein": 0.20552736727779303,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.322268100678921,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.5031826873987102
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.3,
+      "wasserstein": 0.2059868959053249,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.13894278347492206,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.5969906171038246
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.3,
+      "wasserstein": 0.21260984758463794,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.32595350086689,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.5386464636666006
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 1.0,
+      "wasserstein": 0.21551515113708217,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.12203385055065108,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.6015379959301785
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.2,
+      "wasserstein": 0.21941164468629815,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.11541726768016825,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.6024291081575078
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.8,
+      "wasserstein": 0.22348939179267052,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.13405543923377972,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.48819016679009103
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.98,
+      "wasserstein": 0.22639746378679007,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.1175855505466461,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.5318209232444655
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.5,
+      "wasserstein": 0.23331133733416204,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.12196369290351838,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.4560646389744162
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.95,
+      "wasserstein": 0.2358410334403455,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.11175540208816548,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.4750729649562086
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.6,
+      "wasserstein": 0.23644917879400495,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.12149984836578409,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.4319767452196794
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.4,
+      "wasserstein": 0.23805838102610102,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.11044162809848779,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.46066776518393476
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.8,
+      "wasserstein": 0.23970520438417942,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.3409025421738622,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.5276570377989815
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "wasserstein": 0.24053663905861744,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.3055011990666393,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.7330747829703315
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.9,
+      "wasserstein": 0.24658479331290323,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.10290907979011532,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.4115200330157246
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.7,
+      "wasserstein": 0.24732103157125077,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.10849827110767385,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.3835432101491888
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.3,
+      "wasserstein": 0.24934281069509606,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.08854696214199065,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.44715148442510033
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.1,
+      "wasserstein": 0.25107477260935884,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.07094709873199445,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.5336652241696284
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.5,
+      "wasserstein": 0.26081071701872643,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0827564865350724,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.3398474858115979
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.8,
+      "wasserstein": 0.26227115002933454,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.08410841822624193,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.317021142282945
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.4,
+      "wasserstein": 0.262578688781692,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.07317747056484214,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.36018882617164927
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.2,
+      "wasserstein": 0.2642873443041998,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.06035188913345324,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.4084317882325055
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.6,
+      "wasserstein": 0.26473723097461566,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.08057830214500417,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.3003170855794864
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.3,
+      "wasserstein": 0.2691029730382994,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.056831466555595234,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.3489899750337987
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 1.0,
+      "wasserstein": 0.27164828967768906,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.05547834753990155,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.31154408969413144
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.7,
+      "wasserstein": 0.2727234388558172,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.06456029355526016,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.25112768145713865
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.98,
+      "wasserstein": 0.2739565514163077,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.053394915461540404,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.2805236402996085
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.95,
+      "wasserstein": 0.27634506794736424,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.050038785338402,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.25160120249112683
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.4,
+      "wasserstein": 0.2768446956808963,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.04382074058055885,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.2759424307138586
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.5,
+      "wasserstein": 0.27723848470215595,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.04680757343769071,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.2499309326102962
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "wasserstein": 0.279185394361844,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.044747205972671344,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.21788969945834677
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.2,
+      "wasserstein": 0.2798198447122115,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.028056015372276533,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.3249943836017654
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.3,
+      "wasserstein": 0.28020252390484673,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.03159846007823974,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.27643976893295474
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.6,
+      "wasserstein": 0.28035399546528905,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.04296629965305365,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.19975171785619408
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.1,
+      "wasserstein": 0.28165353092617673,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.019584608078002663,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.37193640984306336
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "wasserstein": 0.2824000803270027,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.03644544482231138,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.17934104507865137
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.4,
+      "wasserstein": 0.2848938875281363,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.01980311632156362,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.20421206756889554
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.2,
+      "wasserstein": 0.2855066875189997,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.01363527417182897,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.25162212228708
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.05,
+      "wasserstein": 0.2857538152913678,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.008811559081077447,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.36130406363597817
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.5,
+      "wasserstein": 0.28575948151692687,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.018408339619636505,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.17266057005728502
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "wasserstein": 0.2858289313265871,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.022840795516967827,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.1361007020102874
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.3,
+      "wasserstein": 0.2859317299594617,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.013823027610778693,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.2174600764801727
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.5,
+      "wasserstein": 0.28771214502204884,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.35446852684021,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.6267442541704937
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.1,
+      "wasserstein": 0.2879559511351404,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0035756605863569435,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.27445194933783534
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.2,
+      "wasserstein": 0.28797009643127697,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.004427102804184013,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.21849433713565064
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.6,
+      "wasserstein": 0.2879822141450387,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.007160716652870436,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.13344297544658784
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.4,
+      "wasserstein": 0.288066681923939,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0059352093935012284,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.14670065594255724
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.3,
+      "wasserstein": 0.28816665348303594,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.004709944128990173,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.16362941134339137
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.5,
+      "wasserstein": 0.2886458771054948,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0023248380422591364,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.1253519021534739
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.05,
+      "wasserstein": 0.28881382126773797,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0004992455244062777,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.2466039509884721
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.2,
+      "wasserstein": 0.28882528098493854,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0008469313383102639,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.1319534651678527
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.1,
+      "wasserstein": 0.28883219052634346,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0006237679719925948,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.16803695668166369
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.3,
+      "wasserstein": 0.2888563578689021,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.0006449198722839888,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.12505509892945807
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.2,
+      "wasserstein": 0.28892181224382574,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.00012072026729592622,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.1252930904977693
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.4,
+      "wasserstein": 0.28893276304447446,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 3.3372044563328984e-05,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.1260623163002775
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.1,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.2,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.2,
+      "top_p": 0.3,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.1,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.4,
+      "top_p": 0.2,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.6,
+      "top_p": 0.1,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 0.8,
+      "top_p": 0.1,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.0,
+      "top_p": 0.1,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.1,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.05,
+      "wasserstein": 0.2889368723665158,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": -2.81929969814243e-07,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 0.0
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.95,
+      "wasserstein": 0.30900539357769663,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.3412483319640155,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.7509379492370392
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.7,
+      "wasserstein": 0.3301789466723536,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.3658044749498366,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.6924271729011198
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 0.98,
+      "wasserstein": 0.41104224192060834,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.3538044154644012,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.9783802069714425
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.9,
+      "wasserstein": 0.46789016225766256,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.38061730265617333,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 1.9883712916164027
+    },
+    {
+      "temperature": 1.2,
+      "top_p": 1.0,
+      "wasserstein": 0.5476486784493639,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.36353296518325817,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.301217285063821
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.6,
+      "wasserstein": 0.5986857671406468,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4100639626383781,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.164548573831693
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.8,
+      "wasserstein": 0.6096042100648155,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4097549697756766,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.1928288475834665
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.4,
+      "wasserstein": 0.6429672235272333,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4128433683514595,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.257237075466112
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.95,
+      "wasserstein": 0.6570578632341963,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.40138158589601525,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.3568008136861036
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 0.98,
+      "wasserstein": 0.8413533346118967,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4148373219370842,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.7246180806824083
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.7,
+      "wasserstein": 1.0536989836512813,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4616891944408418,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 2.9080554268490038
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.9,
+      "wasserstein": 1.0758585972102153,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.45295733481645584,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 3.013039324356298
+    },
+    {
+      "temperature": 1.4,
+      "top_p": 1.0,
+      "wasserstein": 1.0980071823060957,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4249198460578917,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 3.263975299288244
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.5,
+      "wasserstein": 1.2683361132613575,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4837620311975481,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 3.2190521499259517
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.95,
+      "wasserstein": 1.497702587860367,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.4749979040026665,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 3.761328058476882
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.8,
+      "wasserstein": 1.7618145056087948,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5082689024508,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 4.034742312768896
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 0.98,
+      "wasserstein": 1.9009761963658656,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.488655554652214,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 4.481472440069737
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.6,
+      "wasserstein": 2.1696339663362836,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5431892137229444,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 4.526146709290119
+    },
+    {
+      "temperature": 1.6,
+      "top_p": 1.0,
+      "wasserstein": 2.2874655859786306,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.49831432238221174,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 5.170203004879892
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.9,
+      "wasserstein": 2.9223608708797832,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5516536973416803,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 5.821189984765651
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.7,
+      "wasserstein": 3.4020999561559884,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5922806857526299,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 6.231876575754753
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.95,
+      "wasserstein": 3.723605200461298,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5723374897241593,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 7.010768237148081
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 0.98,
+      "wasserstein": 4.278276393920654,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5846734555065631,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 7.811534485831804
+    },
+    {
+      "temperature": 1.8,
+      "top_p": 1.0,
+      "wasserstein": 4.681708562989988,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.5928169655799866,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 8.384762165780792
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.8,
+      "wasserstein": 4.928380114425091,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.6344467775523663,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 8.223385507437373
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.9,
+      "wasserstein": 6.617066804241728,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.6710105888545512,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 10.291919740374258
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.95,
+      "wasserstein": 7.475224977358727,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.6874937385320662,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 11.293405376972588
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 0.98,
+      "wasserstein": 7.987694699314743,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.6968386369943618,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 11.877376482425905
+    },
+    {
+      "temperature": 2.0,
+      "top_p": 1.0,
+      "wasserstein": 8.340375896437127,
+      "steering_departure_rate": 0.24042667361204406,
+      "sampling_departure_rate": 0.7028815347701312,
+      "steering_conditional_mean_depth": 1.20169911303015,
+      "sampling_conditional_mean_depth": 12.277027215221569
+    }
+  ],
+  "status": "frozen measured direct calibration"
+}
