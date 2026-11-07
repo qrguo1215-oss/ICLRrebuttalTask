@@ -1,0 +1,11 @@
+torch>=2.3
+transformers==4.46.3
+accelerate>=0.34
+numpy>=1.26,<3
+scipy>=1.14
+scikit-learn>=1.5
+tqdm>=4.66
+sympy==1.12
+antlr4-python3-runtime==4.11.1
+word2number
+regex

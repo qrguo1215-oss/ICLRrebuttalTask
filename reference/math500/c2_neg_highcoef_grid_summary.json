@@ -1,0 +1,44 @@
+[
+  {
+    "coef": 0.6,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p6_max10000_sealstop_highcoef_8gpu",
+    "rows": 500,
+    "acc": 0.884,
+    "contains_end_think_rate": 0.914,
+    "contains_boxed_rate": 0.914,
+    "mean_generated_new_tokens": 3152.576,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 458,
+      "max_new_tokens_reached": 42
+    }
+  },
+  {
+    "coef": 0.8,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p8_max10000_sealstop_highcoef_8gpu",
+    "rows": 500,
+    "acc": 0.74,
+    "contains_end_think_rate": 0.73,
+    "contains_boxed_rate": 0.744,
+    "mean_generated_new_tokens": 3677.294,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 431,
+      "max_new_tokens_reached": 69
+    }
+  },
+  {
+    "coef": 1.0,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef1_max10000_sealstop_highcoef_8gpu",
+    "rows": 500,
+    "acc": 0.692,
+    "contains_end_think_rate": 0.64,
+    "contains_boxed_rate": 0.71,
+    "mean_generated_new_tokens": 4638.276,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "max_new_tokens_reached": 101,
+      "eos": 399
+    }
+  }
+]

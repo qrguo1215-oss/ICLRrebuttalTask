@@ -1,0 +1,101 @@
+{
+  "hidden_paths": [
+    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_correct_0_500/hidden.pt",
+    "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/hidden_incorrect_0_500/hidden.pt"
+  ],
+  "source_names": [
+    "hidden_correct_0_500",
+    "hidden_incorrect_0_500"
+  ],
+  "assignments_path": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/cluster_sweep_layer20_k6_multiseed/pca20/seed0/assignments_full.jsonl",
+  "source_cluster_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH_train/DeepSeek-R1-Distill-Qwen-7B/baseline_10000_k6_multiseed/cluster_sweep_layer20_k6_multiseed/pca20/seed0",
+  "layer": 20,
+  "vector_type": "raw_cluster_mean",
+  "summary": {
+    "num_rows": 154990,
+    "cluster_sizes": {
+      "0": 36597,
+      "1": 26362,
+      "2": 30870,
+      "3": 22548,
+      "4": 22321,
+      "5": 16292
+    },
+    "num_examples_per_cluster": {
+      "0": 951,
+      "1": 744,
+      "2": 995,
+      "3": 222,
+      "4": 1000,
+      "5": 879
+    },
+    "source_breakdown_per_cluster": {
+      "0": {
+        "hidden_correct_0_500": 7965,
+        "hidden_incorrect_0_500": 28632
+      },
+      "1": {
+        "hidden_correct_0_500": 4846,
+        "hidden_incorrect_0_500": 21516
+      },
+      "2": {
+        "hidden_correct_0_500": 8927,
+        "hidden_incorrect_0_500": 21943
+      },
+      "3": {
+        "hidden_correct_0_500": 60,
+        "hidden_incorrect_0_500": 22488
+      },
+      "4": {
+        "hidden_correct_0_500": 6800,
+        "hidden_incorrect_0_500": 15521
+      },
+      "5": {
+        "hidden_correct_0_500": 3297,
+        "hidden_incorrect_0_500": 12995
+      }
+    }
+  },
+  "cluster_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "vector_dim": 3584,
+  "num_clusters": 6,
+  "cluster_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "stack_index_to_cluster_id": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+  },
+  "mean_vector_norms": {
+    "0": 262.1304931640625,
+    "1": 232.0565948486328,
+    "2": 260.7680969238281,
+    "3": 259.9426574707031,
+    "4": 282.44049072265625,
+    "5": 271.2242126464844
+  },
+  "cluster_sizes": {
+    "0": 36597,
+    "1": 26362,
+    "2": 30870,
+    "3": 22548,
+    "4": 22321,
+    "5": 16292
+  }
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+runs/
+logs/
+slurm-*.out
+*.lock
+.DS_Store

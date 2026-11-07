@@ -1,0 +1,72 @@
+[
+  {
+    "coef": 0.025,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p025_max10000_sealstop_8gpu",
+    "rows": 500,
+    "acc": 0.868,
+    "contains_end_think_rate": 0.894,
+    "contains_boxed_rate": 0.894,
+    "mean_generated_new_tokens": 3341.298,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 447,
+      "max_new_tokens_reached": 53
+    }
+  },
+  {
+    "coef": 0.05,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p05_max10000_sealstop_8gpu",
+    "rows": 500,
+    "acc": 0.864,
+    "contains_end_think_rate": 0.886,
+    "contains_boxed_rate": 0.884,
+    "mean_generated_new_tokens": 3405.852,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 441,
+      "max_new_tokens_reached": 59
+    }
+  },
+  {
+    "coef": 0.1,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p1_max10000_sealstop_8gpu",
+    "rows": 500,
+    "acc": 0.866,
+    "contains_end_think_rate": 0.89,
+    "contains_boxed_rate": 0.89,
+    "mean_generated_new_tokens": 3376.578,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 442,
+      "max_new_tokens_reached": 58
+    }
+  },
+  {
+    "coef": 0.2,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p2_max10000_sealstop_8gpu",
+    "rows": 500,
+    "acc": 0.868,
+    "contains_end_think_rate": 0.904,
+    "contains_boxed_rate": 0.902,
+    "mean_generated_new_tokens": 3231.296,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 451,
+      "max_new_tokens_reached": 49
+    }
+  },
+  {
+    "coef": 0.4,
+    "output_dir": "/hpc2hdd/home/qguo772/Taxonomy/model_transfer_steering_lab/results/MATH500/DeepSeek-R1-Distill-Qwen-7B/math500_c2_neg_coef0p4_max10000_sealstop_8gpu",
+    "rows": 500,
+    "acc": 0.878,
+    "contains_end_think_rate": 0.906,
+    "contains_boxed_rate": 0.904,
+    "mean_generated_new_tokens": 3200.04,
+    "max_generated_new_tokens": 10000,
+    "stop_reason_counts": {
+      "eos": 453,
+      "max_new_tokens_reached": 47
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "best_k_by_silhouette": 6,
+  "silhouette": 0.17701603472232819,
+  "inertia": 285267808.0,
+  "stability_ari_mean": 0.9972984928723805,
+  "stability_ari_min": 0.9959488837228149
+}

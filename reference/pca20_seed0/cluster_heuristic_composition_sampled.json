@@ -1,0 +1,32 @@
+{
+  "0": {
+    "execution": 4115,
+    "reflection": 58,
+    "transition": 9
+  },
+  "1": {
+    "execution": 6951,
+    "reflection": 1117,
+    "transition": 123
+  },
+  "2": {
+    "execution": 3407,
+    "reflection": 920,
+    "transition": 279
+  },
+  "3": {
+    "execution": 1131,
+    "reflection": 1063,
+    "transition": 241
+  },
+  "4": {
+    "execution": 2655,
+    "reflection": 1706,
+    "transition": 702
+  },
+  "5": {
+    "execution": 3252,
+    "reflection": 37,
+    "transition": 1
+  }
+}
