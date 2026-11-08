@@ -15,9 +15,21 @@ from spec import ROOT, configurations, data, splits, read, write, path_for, chec
 sys.path.insert(0, str(ROOT / "vendor"))
 
 
+def gold_answer(item):
+    """MATH ships worked solutions; GSM ships an already extracted answer."""
+    if "answer" in item:
+        return str(item["answer"])
+    from evaluation.parser import extract_answer
+    # Preserve textual answers such as \\text{east}; unit removal can erase them.
+    answer = extract_answer(item["solution"], data_name="minerva_math", use_last_number=False)
+    if not answer:
+        raise ValueError(f"Cannot extract gold answer for index {item['index']}")
+    return answer
+
+
 def evaluator_identity():
     files = {str(f.relative_to(ROOT)):sha(f) for f in list((ROOT/"vendor").rglob("*.py"))+[Path(__file__)]}
-    packages = {name:version(name) for name in ("sympy", "antlr4-python3-runtime", "regex", "word2number", "numpy")}
+    packages = {name:version(name) for name in ("sympy", "mpmath", "antlr4-python3-runtime", "regex", "word2number", "numpy")}
     return dict(files=files, packages=packages, python=sys.version)
 
 
@@ -26,11 +38,12 @@ def compare_child(connection, text, response, gold):
         from evaluation.parser import extract_answer, strip_string
         from evaluation.grader import math_equal
         old = strip_string(extract_answer(text, data_name="omni-math"), skip_unit=False)
-        full = strip_string(extract_answer(response, data_name="omni-math"), skip_unit=False)
+        full = strip_string(extract_answer(response, data_name="minerva_math", use_last_number=False), skip_unit=True)
         target = strip_string(str(gold).strip(), skip_unit=False)
+        strict_target = strip_string(str(gold).strip(), skip_unit=True)
         connection.send(dict(status="ok", prediction=old, strict_prediction=full,
                              correct=bool(math_equal(old, target)),
-                             strict_correct=bool(math_equal(full, target, include_percentage=False))))
+                             strict_correct=bool(full and strict_target and math_equal(full, strict_target, include_percentage=False))))
     except Exception as exc:
         connection.send(dict(status="error", error=type(exc).__name__ + ": " + str(exc)))
     finally:
@@ -157,7 +170,7 @@ def make_reports(output, meta, graded):
     for key, values in tables.items():
         write_csv(dest/f"{key}.csv", values)
     write(dest/"summary.json", dict(run_id=meta["run_id"], tables=tables, provenance=details,
-                                  primary_grading="legacy parser/percentage convention", strict_sensitivity="untrimmed text; no implicit x100 tolerance",
+                                  primary_grading="legacy parser/percentage convention", strict_sensitivity="untrimmed text; preserved textual answers; no empty matches or implicit x100 tolerance",
                                   bootstrap="10000 paired problem resamples after within-item seed mean"))
 
 
@@ -206,7 +219,7 @@ def main():
         if job["index"] not in splits(cfg["dataset"])["test"]:
             continue
         destination = output/"grading"/source.relative_to(output/"results")
-        tasks.append((str(source), str(destination), meta["run_id"], indexed[cfg["dataset"]][job["index"]]["answer"], evaluator_id))
+        tasks.append((str(source), str(destination), meta["run_id"], gold_answer(indexed[cfg["dataset"]][job["index"]]), evaluator_id))
     graded, errors, disagreements = {}, [], []
     with ProcessPoolExecutor(args.cpu_workers, mp_context=mp.get_context("fork")) as pool:
         for payload, row in zip(tasks, pool.map(grade_job, tasks, chunksize=1)):

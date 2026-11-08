@@ -15,6 +15,26 @@ It downloads the frozen models, checks all inputs, runs preflight tests,
 resumes the corrected experiments and creates one results archive to return.
 GPU numbers and concurrency are configurable; no cluster-specific setup is needed.
 
+## Causal Rebuttal Task
+
+The reviewer-facing causal controls are in [`Causal_Revision/`](Causal_Revision/),
+separate from the table/data corrections. Clone the **whole** repository; this
+task reuses the audited native adapters and frozen assets from `Steering_Revision`.
+
+```bash
+cd Causal_Revision
+bash run.sh plan
+bash run.sh smoke --gpus 0,1
+bash run.sh run --gpus 0,1 --workers-per-gpu 1
+```
+
+The default plan includes depth controls, text/cache replay, fixed random
+directions, independently seeded item-level occlusion, and blind counterpart
+materials. The README explains smaller priority modules and exact reuse of
+compatible correction results. Full runs are expensive: inspect `plan` first.
+Models download automatically; send back the generated results archive.
+Strategy judgments require returned external labels and are never fabricated.
+
 ## CPS 7B Construction Task
 
 To run it, clone this repository and execute:

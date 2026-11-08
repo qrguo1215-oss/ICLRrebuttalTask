@@ -38,6 +38,12 @@ class FakeEngine:
 
 
 class PackageTests(unittest.TestCase):
+    def test_gold_extraction_for_both_frozen_datasets(self):
+        from spec import data
+        for ds in ("math", "gsm"):
+            self.assertTrue(all(report.gold_answer(item) for item in data(ds).values()))
+        self.assertEqual(report.gold_answer(dict(index=0, solution=r"Thus $\boxed{42}$.")), "42")
+
     def test_assets(self):
         self.assertGreater(len(verify_assets()), 20)
 
