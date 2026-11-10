@@ -3,6 +3,22 @@
 Each experiment is isolated in its own directory. The CPS/localBest 7B
 reproduction is in [`CPS_7B_Reproduction/`](CPS_7B_Reproduction/).
 
+## Current Table 2 Correction Only
+
+For the fixed-200-example baseline/replay correction, use the standalone
+[`Table2_Revision/`](Table2_Revision/), **not** the broad Steering_Revision run.
+It bundles 2,400 reusable records and schedules only 2,000 missing generations,
+including the recovered CPS 7B vector. No sampling calibration or GSM reruns.
+
+```bash
+cd Table2_Revision
+bash run.sh plan
+bash run.sh run --gpus 0,1,2,3 --workers-per-gpu 1
+```
+
+Return `Table2_Revision/runs/table2_results.tar.gz`. Read its README for the
+frozen protocol, historical-source caveats, automatic safety gates and resume.
+
 The paper result corrections (Tables 2/6/7/8 and GSM Figure 6) are a separate
 task in [`Steering_Revision/`](Steering_Revision/). For that task, run:
 
